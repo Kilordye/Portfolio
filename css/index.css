@@ -1,0 +1,68 @@
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f5e6d3; /* light brown background */
+    color:#2b1b12; /* dark text */
+}
+
+/* navbar */
+
+.navbar{
+    background:#4a2c1a;
+}
+
+/* hero section */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding-top:80px;
+}
+
+/* profile image */
+
+.profile-container img{
+    width:250px;
+    border-radius:50%;
+    border:5px solid #4a2c1a;
+}
+
+/* buttons */
+
+.btn-brown{
+    background:#4a2c1a;
+    color:white;
+    padding:10px 25px;
+    border-radius:20px;
+}
+
+.btn-brown:hover{
+    background:#2b1b12;
+}
+
+/* skills section */
+
+.skill-card{
+    background:#e6d3b3;
+    padding:30px;
+    border-radius:10px;
+    color:#2b1b12;
+}
+
+/* project cards */
+
+.project-card{
+    background:#e6d3b3;
+    color:#2b1b12;
+}
+
+.project-card img{
+    height:200px;
+    object-fit:cover;
+}
+
+/* headings darker */
+
+h1, h2, h3, h4{
+    color:#1a0f08;
+}
