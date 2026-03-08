@@ -1,7 +1,7 @@
 body{
     font-family:'Poppins', sans-serif;
-    background:#f5e6d3; /* light brown background */
-    color:#2b1b12; /* dark text */
+    background:#f5e6d3; 
+    color:#2b1b12;
 }
 
 /* navbar */
@@ -40,9 +40,22 @@ body{
     background:#2b1b12;
 }
 
-/* skills section */
+/* personal interests */
 
-.skill-card{
+.interest-img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.interest-card{
+    background-color: #8B5E3C;
+    color: white;
+}
+
+/* tools section */
+
+.tool-card{
     background:#e6d3b3;
     padding:30px;
     border-radius:10px;
@@ -63,6 +76,6 @@ body{
 
 /* headings darker */
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     color:#1a0f08;
 }
