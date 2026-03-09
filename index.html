@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -65,20 +65,19 @@
         </div>
     </nav>
 
-
     <!-- HOME -->
     <section id="home" class="hero">
 
-        <div class="container">
+        <div class="container-lg">
 
-            <div class="row align-items-center text-center text-md-start">
+            <div class="row align-items-center justify-content-center text-center text-md-start">
 
                 <!-- LEFT -->
-                <div class="col-12 col-md-6 mb-5 mb-md-0 fs-2" data-aos="fade-right">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 fs-2" data-aos="fade-right" data-aos-delay="200">
 
                     <h4>Hello, I am</h4>
 
-                    <h1 class="fw-bold">Carl Dominik Salazar</h1>
+                    <h1 class="fw-bold">Carl <span class="highlight">Dominik</span> Salazar</h1>
 
                     <h5>Aspiring Web Developer</h5>
 
@@ -87,12 +86,12 @@
                         modern websites and learning software development technologies.
                     </p>
 
-                    <a href="#about" class="btn btn-brown mt-3">Resume</a>
+                    <a href="#contact" class="btn btn-brown mt-3">Contact Me</a>
 
                 </div>
 
                 <!-- RIGHT -->
-                <div class="col-12 col-md-6 text-center" data-aos="fade-left">
+                <div class="col-12 col-md-6 text-center" data-aos="fade-left" data-aos-delay="400">
 
                     <div class="profile-container">
 
@@ -107,7 +106,6 @@
         </div>
 
     </section>
-
 
     <!-- ABOUT -->
     <section id="about" class="py-5 text-white">
@@ -191,7 +189,6 @@
         </div>
     </section>
 
-
     <!-- TOOLS -->
     <section id="tools" class="py-5">
 
@@ -235,44 +232,18 @@
 
     </section>
 
-
     <!-- PROJECTS -->
     <section id="projects" class="py-5 text-white">
 
-        <div class="container">
+        <section class="container">
 
             <h2 class="text-center mb-5">Projects</h2>
 
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
 
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up">
 
-                    <div class="card project-card">
-
-                        <img src="/images/OJT Tracking System.png" alt="Project Image"
-                            class="card-img-top img-fluid">
-
-                        <div class="card-body text-center">
-
-                            <h5>TrainTrackDesk - OJT Classroom Management System</h5>
-
-                            <p>
-                                TrainTrackDesk is a web-based On-the-Job Training (OJT) tracking system designed to facilitate classroom management, student assignments, and training progress monitoring. The platform provides different interfaces and capabilities for students, professors, and administrators.
-                            </p>
-
-                            <a href="https://ojtclassroom-finalproj.vercel.app/" class="btn btn-brown">
-                                Live Preview
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
-
-                    <div class="card project-card">
+                    <div class="card project-card h-100">
 
                         <img src="/images/OJT Tracking System.png" alt="Project Image"
                             class="card-img-top img-fluid">
@@ -295,22 +266,22 @@
 
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="col-12 col-md-6 col-lg-4 d-flex" data-aos="fade-up">
 
-                    <div class="card project-card">
+                    <div class="card project-card h-100">
 
-                        <img src="/images/OJT Tracking System.png" alt="Project Image"
+                        <img src="/images/Portfolio.png" alt="Project Image"
                             class="card-img-top img-fluid">
 
                         <div class="card-body text-center">
 
-                            <h5>TrainTrackDesk - OJT Classroom Management System</h5>
+                            <h5>2nd Year - Portfolio</h5>
 
                             <p>
-                                TrainTrackDesk is a web-based On-the-Job Training (OJT) tracking system designed to facilitate classroom management, student assignments, and training progress monitoring. The platform provides different interfaces and capabilities for students, professors, and administrators.
+                                A personal portfolio website that I created in 2025, built with html and css only, featuring responsive design, smooth scroll, and sections for my skills, personal interests, projects, and contact. This website is a showcase for my journey as an aspiring web developer.
                             </p>
 
-                            <a href="https://ojtclassroom-finalproj.vercel.app/" class="btn btn-brown">
+                            <a href="https://kilordye.github.io/" class="btn btn-brown">
                                 Live Preview
                             </a>
 
@@ -319,13 +290,10 @@
                     </div>
 
                 </div>
-
+            
             </div>
 
-        </div>
-
-    </section>
-
+        </section>
 
     <!-- CONTACT -->
     <section id="contact" class="py-5">
@@ -356,7 +324,7 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
