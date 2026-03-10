@@ -6,7 +6,6 @@ body{
     color:#2b1b12;
 }
 
-/* Smooth scrolling for anchor links */
 html {
     scroll-behavior: smooth;
 }
@@ -95,7 +94,6 @@ html {
     border-radius:10px;
     color:#2b1b12;
 }
-
 
 /* project cards */
 
